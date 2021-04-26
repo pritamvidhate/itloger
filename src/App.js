@@ -34,6 +34,6 @@ const App = () => {
       </Fragment>
     </Provider>
   );
-}
+};
 
 export default App;

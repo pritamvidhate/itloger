@@ -13,13 +13,6 @@
       "attention": false,
       "tech": "John Doe",
       "date": "2021-04-25T06:24:31.987Z"
-    },
-    {
-      "message": "projector create a problem on 009",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2021-04-25T05:18:02.686Z",
-      "id": 4
     }
   ],
   "techs": [
@@ -42,6 +35,11 @@
       "firstname": "pritam",
       "lastname": "vidh",
       "id": 4
+    },
+    {
+      "firstName": "pritam",
+      "lastName": "vidh",
+      "id": 5
     }
   ]
 }

@@ -1,45 +1,68 @@
 {
   "logs": [
     {
+      "id": 1,
+      "message": "The Wireless Network is Kicking People Out on 005",
+      "attention": false,
+      "tech": "Carla Shannon",
+      "date": "2021-04-27T04:06:02.673Z"
+    },
+    {
       "id": 2,
-      "message": "trobleshoot",
+      "message": "I’ve got the dreaded blue screen of death! on 009",
       "attention": true,
-      "tech": "John Doe",
-      "date": "2021-04-25T06:25:07.938Z"
+      "tech": "karan Parera",
+      "date": "2021-04-27T04:06:20.863Z"
     },
     {
       "id": 3,
-      "message": "router is fixed 0n 009",
+      "message": "My computer is running too slowly! on 001",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2021-04-25T06:24:31.987Z"
+      "tech": "Marie Olja",
+      "date": "2021-04-27T04:06:36.411Z"
+    },
+    {
+      "id": 4,
+      "message": "I keep losing access to the wireless network! on 007",
+      "attention": false,
+      "tech": "Nathalie  Bruno",
+      "date": "2021-04-27T04:06:50.938Z"
+    },
+    {
+      "id": 5,
+      "message": "My computer does not recognise my USB device! on 004",
+      "attention": true,
+      "tech": "karan Parera",
+      "date": "2021-04-27T04:07:02.670Z"
+    },
+    {
+      "id": 6,
+      "message": "I keep losing access to the wireless network! on 010",
+      "attention": false,
+      "tech": "Carla Shannon",
+      "date": "2021-04-27T04:07:31.871Z"
     }
   ],
   "techs": [
     {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
+      "firstName": "Nathalie ",
+      "lastName": "Bruno",
+      "id": 1
     },
     {
-      "firstname": "nathalie",
-      "lastname": "bruno",
+      "firstName": "karan",
+      "lastName": "Parera",
       "id": 2
     },
     {
-      "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
+      "firstName": "Carla ",
+      "lastName": "Shannon",
+      "id": 3
     },
     {
-      "firstname": "pritam",
-      "lastname": "vidh",
+      "firstName": "Marie",
+      "lastName": "Olja",
       "id": 4
-    },
-    {
-      "firstName": "pritam",
-      "lastName": "vidh",
-      "id": 5
     }
   ]
 }

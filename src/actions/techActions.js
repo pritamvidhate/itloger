@@ -53,12 +53,12 @@ export const addTech = (tech) => async dispatch => {
 };
 
 //delete techs
-export const deleteTech = id => async dispatch => {
+export const deleteTech = (id) => async dispatch => {
     try {
         setLoading();
 
         await fetch(`/techs/${id}`, {
-            mehtod: 'DELETE'
+            method: 'DELETE'
         });
 
         dispatch({

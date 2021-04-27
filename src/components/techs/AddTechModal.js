@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { addTech } from "../../actions/techActions";
 import M from 'materialize-css/dist/js/materialize.min.js'; 
 
-
 const AddTechModal = ({addTech}) => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -48,17 +47,17 @@ const AddTechModal = ({addTech}) => {
             </div>
 
             <div className='row'>
-            <div className='input-field'>
-                <input
-                    type='text'
-                    name='lastName'
-                    value={lastName}
-                    onChange={e => setLastName(e.target.value)}
-                />
-                <label htmlFor='lastName' className='active'>
-                Last Name
-                </label>
-            </div>
+                <div className='input-field'>
+                    <input
+                        type='text'
+                        name='lastName'
+                        value={lastName}
+                        onChange={e => setLastName(e.target.value)}
+                    />
+                    <label htmlFor='lastName' className='active'>
+                        Last Name
+                    </label>
+                </div>
             </div>
         </div>
         

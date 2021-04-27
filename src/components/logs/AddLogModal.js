@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import TechSelectOptions from '../techs/TechSelectOptions';
 import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min.js'
@@ -21,7 +21,7 @@ const AddLogModal = ({addLog}) => {
                 attention,
                 tech,
                 date: new Date()
-            }
+            };
 
             addLog(newLog);
             M.toast({html: `log added by ${tech}`});
